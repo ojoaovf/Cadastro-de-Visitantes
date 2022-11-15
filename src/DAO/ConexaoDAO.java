@@ -80,7 +80,6 @@ public class ConexaoDAO {
             return 0;
         }
     }
-//não sei se são necessarios esses ultimos 2 métodos
     
     public void executarSQL(String sql) {
         try {
