@@ -1,4 +1,4 @@
-drop database if exists bd_visitantes; -- APAGAR ISSO APOS ANTES DA ENTREGA DO PROJETO
+drop database if exists bd_visitantes;
 create database bd_visitantes;
 use bd_visitantes;
 
@@ -12,4 +12,4 @@ create table Cadastro (
     email		varchar(60)		not null
 );
 
-select * from cadastro;
+-- select * from cadastro;
